@@ -2,4 +2,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header {
+  background-color: #e9d4ad;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  position: sticky;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+}
+.header-right img {
+  max-width: 20px;
+}
+
+.header-a {
+  text-decoration: none;
+  color: black;
+  transition: opacity 100ms;
+}
+.header-a:hover {
+  opacity: 0.3;
+}
+
+.hero-img-wrap {
+  max-width: 500px;
+}
+.hero-img-wrap > img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

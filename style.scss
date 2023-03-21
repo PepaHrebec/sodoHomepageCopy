@@ -1,5 +1,43 @@
+$sodo-red: #d2574c;
+$sodo-cream: #e9d4ad;
+$sodo-white: #fefefe;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header {
+  background-color: $sodo-cream;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  position: sticky;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+  & img {
+    max-width: 20px;
+  }
+}
+
+.header-a {
+  text-decoration: none;
+  color: black;
+  transition: opacity 100ms;
+  &:hover {
+    opacity: 0.3;
+  }
+}
+
+.hero-img-wrap {
+  max-width: 500px;
+  & > img {
+    width: 100%;
+  }
 }
