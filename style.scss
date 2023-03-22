@@ -6,14 +6,20 @@ $sodo-white: #fefefe;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Cormorant Garamond", serif;
 }
 
 header {
   background-color: $sodo-cream;
-  display: flex;
-  justify-content: space-between;
   padding: 15px 40px;
   position: sticky;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .header-right {
@@ -35,9 +41,54 @@ header {
   }
 }
 
+main {
+  background-color: #fefefe;
+  display: flex;
+  & > div {
+    flex: 1;
+  }
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 .hero-img-wrap {
-  max-width: 500px;
   & > img {
     width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
   }
+}
+
+.hero-text-h {
+  padding-bottom: 40px;
+  max-width: 200px;
+  font-size: 2.1rem;
+}
+
+.hero-smaller-h {
+  padding-bottom: 25px;
+  font-size: 1.8rem;
+}
+
+.hero-text-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text-inner-wrap {
+  // padding: 50px 50px 30px 70px;
+  padding: 50px 100px 0 50px;
+  & > p {
+    padding-bottom: 25px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+}
+
+.hero-times {
+  padding-bottom: 15px;
+  font-size: 1.3rem;
 }
