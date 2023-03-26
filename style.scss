@@ -98,3 +98,26 @@ main {
   margin: 0 auto;
   max-width: 1140px;
 }
+
+.ig-section {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.ig-p {
+  text-align: center;
+}
+
+.ig-img-container {
+  max-width: 1140px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: auto;
+}
+
+.ig-img-wrap {
+  & > img {
+    width: 100%;
+  }
+}
