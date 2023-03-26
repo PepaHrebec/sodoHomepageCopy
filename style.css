@@ -84,4 +84,10 @@ main > div {
 .hero-times {
   padding-bottom: 15px;
   font-size: 1.3rem;
+}
+
+.chain {
+  display: block;
+  margin: 0 auto;
+  max-width: 1140px;
 }/*# sourceMappingURL=style.css.map */
