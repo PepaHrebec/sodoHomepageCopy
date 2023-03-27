@@ -14,6 +14,7 @@ header {
   padding: 15px 40px;
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 
 .header-wrap {
@@ -53,13 +54,21 @@ main {
 }
 
 .hero-img-wrap {
-  & > img {
-    width: 100%;
-    max-width: 600px;
-    padding: 20px;
-    margin: 0 auto;
-    display: block;
-  }
+  position: relative;
+}
+
+.people-img {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+.kettle-img {
+  position: absolute;
+  bottom: 0;
+  left: -20%;
 }
 
 .hero-text-h {
@@ -97,6 +106,7 @@ main {
 .chain {
   display: block;
   margin: 0 auto;
+  width: 100%;
   max-width: 1140px;
 }
 
