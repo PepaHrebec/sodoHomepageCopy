@@ -142,6 +142,7 @@ main > div {
 .adress-map-wrap {
   width: 100%;
   height: 450px;
+  padding-bottom: 10px;
 }
 
 iframe {
@@ -160,12 +161,35 @@ iframe {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
 }
 .mail-form > * {
   flex: 1;
 }
 
+.mail-text {
+  font-size: 2.3em;
+}
+
 .input-wrap {
   display: flex;
   flex-direction: column;
+  gap: 5px;
+}
+.input-wrap > input {
+  padding: 10px 20px;
+  border: solid 1px #f2f2f2;
+  font-size: 1.1em;
+}
+.input-wrap > input:focus {
+  outline: none;
+}
+
+.input-submit {
+  padding: 15px 30px;
+  border: none;
+  background-color: #e9d4ad;
+  color: #fefefe;
+  font-size: 1em;
+  margin-bottom: -20px;
 }/*# sourceMappingURL=style.css.map */
