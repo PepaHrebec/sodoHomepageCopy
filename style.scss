@@ -13,6 +13,7 @@ header {
   background-color: $sodo-cream;
   padding: 15px 40px;
   position: sticky;
+  top: 0;
 }
 
 .header-wrap {
@@ -202,4 +203,46 @@ iframe {
   color: #fefefe;
   font-size: 1em;
   margin-bottom: -20px;
+}
+
+footer {
+  background-color: #d2574c;
+  padding: 60px 20px 100px 20px;
+  color: #f2f2f2;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.3em;
+  max-width: 900px;
+  & img {
+    max-width: 20px;
+    color: #f2f2f2;
+    filter: grayscale(100%) invert(100%);
+  }
+  & > div {
+    padding: 0 20px;
+    flex: 1;
+  }
+  & p {
+    font-weight: 300;
+  }
+}
+
+.left-top {
+  padding-bottom: 30px;
+}
+
+.footer-num {
+  padding: 20px 0;
+}
+
+.footer-section-mid {
+  border-left: solid 1px $sodo-white;
+  border-right: solid 1px $sodo-white;
+}
+
+.footer-opening {
+  padding: 20px 0;
 }
