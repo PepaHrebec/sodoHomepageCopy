@@ -27,13 +27,14 @@ header {
   gap: 60px;
 }
 .header-right img {
-  max-width: 20px;
+  max-width: 25px;
 }
 
 .header-a {
   text-decoration: none;
   color: black;
   transition: opacity 100ms;
+  font-size: 1.3em;
 }
 .header-a:hover {
   opacity: 0.3;
