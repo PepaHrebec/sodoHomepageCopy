@@ -1,6 +1,7 @@
 $sodo-red: #d2574c;
 $sodo-cream: #e9d4ad;
 $sodo-white: #fefefe;
+$sodo-anchor: #9b9b9b;
 
 * {
   margin: 0;
@@ -32,6 +33,10 @@ header {
   & img {
     max-width: 25px;
   }
+}
+
+.header-button-list {
+  display: none;
 }
 
 .header-a {
@@ -147,7 +152,7 @@ main {
 
 .adress-section {
   max-width: 1140px;
-  padding: 0 20px 120px 0;
+  padding: 0 20px 120px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -174,7 +179,7 @@ iframe {
 
 .mail-section {
   max-width: 1140px;
-  padding: 0 20px 60px 0;
+  padding: 0 20px 60px 20px;
   margin: 0 auto;
 }
 
@@ -256,4 +261,38 @@ footer {
 
 .footer-opening {
   padding: 20px 0;
+}
+
+.hero-a,
+.map-a {
+  color: #9b9b9b;
+}
+
+@media only screen and (max-width: 840px) {
+  .header-button-list {
+    display: block;
+  }
+  .header-right a {
+    display: none;
+  }
+  main {
+    flex-direction: column;
+  }
+  .hero-text-inner-wrap {
+    padding: 50px 20px 0 20px;
+  }
+  .ig-img-container {
+    display: none;
+  }
+  .mail-form {
+    flex-direction: column;
+    align-items: normal;
+  }
+  .footer-wrap {
+    flex-direction: column;
+    & > div {
+      border: none;
+      padding: 0;
+    }
+  }
 }
