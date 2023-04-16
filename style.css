@@ -20,6 +20,17 @@ header {
   margin: 0 auto;
 }
 
+.hidden-dropdown {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 .header-right {
   display: flex;
   flex-direction: row;
@@ -285,5 +296,8 @@ footer {
   .footer-wrap > div {
     border: none;
     padding: 0;
+  }
+  .footer-section-right {
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
